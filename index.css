@@ -1,0 +1,247 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+} 
+html{
+  scroll-behavior: smooth;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bia{
+  text-align: center;   
+}
+nav{
+  background: #4cc4a0e8;
+  min-height: 38px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.header-nav{
+  padding: 0 16px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav ul li{
+  list-style-type: none;
+}
+nav > ul > li > a{
+  color: #fff;
+}
+nav ul li:hover{
+  cursor: pointer;
+  background: #055699;
+}
+nav li a{
+  text-decoration: none;
+  line-height: 50px;
+}
+nav li{
+  position: relative;
+}
+nav .subnav {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(15, 243, 45, 0.3);
+
+}
+nav .subnav a{
+  color: #000;
+  background: #fff;
+  display: block;
+  padding: 0 12px;
+  min-width: 210px;
+  line-height: 38px;
+}
+nav .subnav a:hover{
+  color: #4cc4a0e8;
+  background-color: #f5f5f5;
+}
+nav li:hover .subnav{
+  display: block;
+}
+nav li a .icon{
+  font-size: 12px;
+}
+.container{
+  padding: 0 90px;
+}
+.bb-solid{
+  border-bottom: 2px solid #eee;
+}
+.td-none{
+  text-decoration: none;
+}
+.slide{
+  min-height: 1110px;
+}
+.slide-left{
+  max-width: calc(1110px - 260px);
+  height: 2120px;
+  background-color: whitesmoke;
+}
+.slide-right{
+  max-width: 260px;
+  height: 1000px;
+  background-color:#fff;
+  float: right;
+}
+.content-header{
+  background-color: #4cc4a0e8 ;
+  height: 36px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 7px 7px 0px 0px;
+}
+.content-header i{
+  line-height: 36px;
+  font-size: 20px;
+  padding: 5px;
+}
+.content-main{
+  border: 1px solid #eee;
+}
+.content-main1{
+  padding: 10px 14px;
+}
+.content-main1 a{
+  font-size: 14px;
+  color: black;
+}
+.content-main1 p{
+  margin-top: 8px;
+  font-size: 12px;
+  color: rgb(126, 125, 125);
+}
+.tainguyen .content-main2 i{
+  color: aqua;
+}
+.tainguyen .content-main2:hover a{
+  color: blueviolet;
+}
+footer{
+  height: 260px;
+  width: 100%;
+  background: #eee;
+}
+.padding{
+  padding: 18px 0;
+}
+footer .info h3, footer > .info >  p >a{
+  color: #007efe;
+}
+footer h3{
+  padding: 14px 0;
+}
+footer .info p{
+  margin-bottom: 8px;
+}
+.footer-solid{
+  border-bottom: 1px solid #007efe;
+  padding: 20px 0;
+  padding-top: 130px;
+}
+.copyright{
+  padding: 20px 0;
+}
+.copyright span{
+  float: right;
+}
+footer .ketnoi , .info{
+  float: left;
+  width: 50%;
+}
+.ketnoi p{
+  padding: 14px 0;
+  font-size: 20px;
+}
+.ketnoi .icon-lienket{
+  font-size: 40px;
+  color: rgba(42, 43, 44, 0.514);
+}
+.ketnoi .icon-lienket:hover{
+  color: rgba(104, 149, 247, 0.863);
+}
+.top-menu{
+  position: absolute;
+  top: 0px;
+  right: -80px;
+  border-bottom-left-radius: 10px;
+  background-color: #4cc4a0e8;
+  line-height: 30px;
+  padding: 0 10px 0 30px;
+  box-shadow: 0 0 0px white;
+  padding-right: 100px;
+}
+.top-menu>a{
+  text-decoration: none;
+  color: white;
+  font-variant: small-caps;
+}
+.top-menu>:hover{
+  color: rgb(189, 27, 27) ;
+}
+.form-group{
+  margin: 10px 2px;
+  padding-left: 100px;
+  
+}
+.form-control{
+  margin: 3px 0px;
+  padding: 5px;
+  border: none;
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 3px blue;
+  color: black;
+  display: block;
+  outline: none;
+}
+
+.table{
+  width: 100%;
+  padding: 100px;
+
+  
+}
+th{
+  background-color: #4cc4a0e8;
+  color: #f5f5f5; 
+}
+tr{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.h3{
+  text-align: left  ;
+}
+.thongtin{
+  text-align: center;
+  
+}
+.thongtin1{
+  float: left;
+  border-radius: 10px;
+}
+.thongtin2{
+  float: left;
+  border-radius: 10px;
+}
+.thongtin3{
+  float: left;
+  border-radius: 10px;
+}
+.tintucsukien{
+  text-align: center;
+}
+body {
+  background-color: rgb(240, 196, 236);
+}
